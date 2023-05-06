@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF38F23929F8362E00D224EA /* UsersPlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38F23829F8362E00D224EA /* UsersPlantTableViewCell.swift */; };
 		BF67E54029F7182C007303C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67E53F29F7182C007303C8 /* AppDelegate.swift */; };
 		BF67E54229F7182C007303C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67E54129F7182C007303C8 /* SceneDelegate.swift */; };
 		BF67E54429F7182C007303C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67E54329F7182C007303C8 /* ViewController.swift */; };
-		BF67E54729F7182C007303C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF67E54529F7182C007303C8 /* Main.storyboard */; };
 		BF67E54A29F7182C007303C8 /* GrowWell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF67E54829F7182C007303C8 /* GrowWell.xcdatamodeld */; };
 		BF67E54C29F7182D007303C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF67E54B29F7182D007303C8 /* Assets.xcassets */; };
 		BF67E54F29F7182D007303C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF67E54D29F7182D007303C8 /* LaunchScreen.storyboard */; };
+		BF67E57029F71AB8007303C8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67E56D29F71AB8007303C8 /* LoginViewController.swift */; };
+		BF67E57129F71AB8007303C8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67E56E29F71AB8007303C8 /* HomeViewController.swift */; };
+		BF67E57229F71AB8007303C8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67E56F29F71AB8007303C8 /* RegisterViewController.swift */; };
+		BF67E57429F71B23007303C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF67E57329F71B23007303C8 /* Main.storyboard */; };
+		BFE258B129F97666000761BF /* ManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE258B029F97666000761BF /* ManageViewController.swift */; };
+		BFE258B329FA0CAC000761BF /* PointTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE258B229FA0CAC000761BF /* PointTableViewCell.swift */; };
+		BFE258B529FA0D30000761BF /* PointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE258B429FA0D30000761BF /* PointViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF38F23829F8362E00D224EA /* UsersPlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPlantTableViewCell.swift; sourceTree = "<group>"; };
 		BF67E53C29F7182C007303C8 /* GrowWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrowWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF67E53F29F7182C007303C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF67E54129F7182C007303C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF67E54329F7182C007303C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF67E54629F7182C007303C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF67E54929F7182C007303C8 /* GrowWell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrowWell.xcdatamodel; sourceTree = "<group>"; };
 		BF67E54B29F7182D007303C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF67E54E29F7182D007303C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF67E55029F7182D007303C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF67E56D29F71AB8007303C8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = GrowWell/ViewController/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		BF67E56E29F71AB8007303C8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = GrowWell/ViewController/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		BF67E56F29F71AB8007303C8 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = GrowWell/ViewController/RegisterViewController.swift; sourceTree = SOURCE_ROOT; };
+		BF67E57329F71B23007303C8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BFE258B029F97666000761BF /* ManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageViewController.swift; sourceTree = "<group>"; };
+		BFE258B229FA0CAC000761BF /* PointTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointTableViewCell.swift; sourceTree = "<group>"; };
+		BFE258B429FA0D30000761BF /* PointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,31 @@
 		BF67E53E29F7182C007303C8 /* GrowWell */ = {
 			isa = PBXGroup;
 			children = (
+				BF67E56C29F71A77007303C8 /* ViewController */,
 				BF67E53F29F7182C007303C8 /* AppDelegate.swift */,
 				BF67E54129F7182C007303C8 /* SceneDelegate.swift */,
 				BF67E54329F7182C007303C8 /* ViewController.swift */,
-				BF67E54529F7182C007303C8 /* Main.storyboard */,
 				BF67E54B29F7182D007303C8 /* Assets.xcassets */,
 				BF67E54D29F7182D007303C8 /* LaunchScreen.storyboard */,
 				BF67E55029F7182D007303C8 /* Info.plist */,
 				BF67E54829F7182C007303C8 /* GrowWell.xcdatamodeld */,
+				BF67E57329F71B23007303C8 /* Main.storyboard */,
 			);
 			path = GrowWell;
+			sourceTree = "<group>";
+		};
+		BF67E56C29F71A77007303C8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF67E56E29F71AB8007303C8 /* HomeViewController.swift */,
+				BF67E56D29F71AB8007303C8 /* LoginViewController.swift */,
+				BF67E56F29F71AB8007303C8 /* RegisterViewController.swift */,
+				BF38F23829F8362E00D224EA /* UsersPlantTableViewCell.swift */,
+				BFE258B029F97666000761BF /* ManageViewController.swift */,
+				BFE258B229FA0CAC000761BF /* PointTableViewCell.swift */,
+				BFE258B429FA0D30000761BF /* PointViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF67E57429F71B23007303C8 /* Main.storyboard in Resources */,
 				BF67E54F29F7182D007303C8 /* LaunchScreen.storyboard in Resources */,
 				BF67E54C29F7182D007303C8 /* Assets.xcassets in Resources */,
-				BF67E54729F7182C007303C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,22 +172,21 @@
 			files = (
 				BF67E54A29F7182C007303C8 /* GrowWell.xcdatamodeld in Sources */,
 				BF67E54429F7182C007303C8 /* ViewController.swift in Sources */,
+				BF67E57229F71AB8007303C8 /* RegisterViewController.swift in Sources */,
 				BF67E54029F7182C007303C8 /* AppDelegate.swift in Sources */,
+				BF38F23929F8362E00D224EA /* UsersPlantTableViewCell.swift in Sources */,
+				BFE258B529FA0D30000761BF /* PointViewController.swift in Sources */,
+				BFE258B129F97666000761BF /* ManageViewController.swift in Sources */,
+				BF67E57029F71AB8007303C8 /* LoginViewController.swift in Sources */,
 				BF67E54229F7182C007303C8 /* SceneDelegate.swift in Sources */,
+				BFE258B329FA0CAC000761BF /* PointTableViewCell.swift in Sources */,
+				BF67E57129F71AB8007303C8 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BF67E54529F7182C007303C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF67E54629F7182C007303C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF67E54D29F7182D007303C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
